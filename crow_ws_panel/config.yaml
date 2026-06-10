@@ -1,5 +1,5 @@
 name: Elecrow ESP32P4 interface
-version: "1.0.1"
+version: "1.0.2"
 slug: crow_ws_panel
 description: Home Assistant Browser for Elecrow ESP32P4 Advance panel
 url: https://github.com/fintros/crow-ha
