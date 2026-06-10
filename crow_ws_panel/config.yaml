@@ -1,0 +1,15 @@
+name: Elecrow ESP32P4 interface
+version: "1.0.0"
+slug: crow_ws_panel
+description: Elecrow ESP32P4 - Home Assistant Browser Panel
+url: https://github.com/fintros/crow-ha
+arch:
+  - amd64
+  - aarch64
+init: false
+apparmor: false
+ports:
+  "3000/tcp": 3000
+ports_description:
+  "3000/tcp": WebSocket stream + touch input for the panel device
+
