@@ -1,7 +1,7 @@
-name: Elecrow ESP32P4 interface
+name: Elecrow ESP32P4 based panels interface
 version: "1.0.8"
 slug: crow_ws_panel
-description: Home Assistant Browser for Elecrow ESP32P4 Advance panel
+description: Home Assistant Kiosk for Elecrow ESP32P4 Advance panels
 url: https://github.com/fintros/crow-ha
 arch:
   - amd64
