@@ -1,5 +1,5 @@
 name: Elecrow ESP32P4 Display
-version: "1.1.0"
+version: "1.1.1"
 slug: crow_ws_panel
 description: Home Assistant Display plugin for Elecrow panels based on ESP32P4
 url: https://github.com/fintros/crow-ha
