@@ -60,6 +60,10 @@ port reachable on your network, open the add-on's **Network** panel, map
 `3000/tcp` to the host port you want, and restart the add-on. Use that port in
 the panel's connection URL.
 
+## Browser audio
+
+Enable `audio_enabled` to send Chromium audio to panels running an audio-capable firmware. Audio uses an additional WebSocket on the existing port 3000; no host sound card is required. Older firmwas to receive the screen. This option requires an updated server base image containing the audio implementation. Microphone recording is not enabled in this release.
+
 ### Fixed defaults
 
 These are set in the image and are not user-configurable yet:

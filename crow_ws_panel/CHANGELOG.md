@@ -1,4 +1,8 @@
 # Changelog
+## [1.2.3] - 2026-10-12
+### Fixed
+- Stereo audio support
+- https:// BASE URLs support
 ## [1.1.6] - 2026-09-02
 ### Fixed
 - On screen keyboard back to work

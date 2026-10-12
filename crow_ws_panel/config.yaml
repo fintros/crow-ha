@@ -1,5 +1,5 @@
 name: Elecrow ESP32P4 Display
-version: "1.1.6"
+version: "1.2.3"
 slug: crow_ws_panel
 description: Home Assistant Display plugin for Elecrow panels based on ESP32P4
 url: https://github.com/fintros/crow-ha
@@ -10,8 +10,13 @@ init: false
 apparmor: false
 auth_api: true
 hassio_api: true
+homeassistant_api: true
 ports:
   "3000/tcp": 3000
 ports_description:
   "3000/tcp": WebSocket stream + touch input for the panel device
 
+options:
+  audio_enabled: true
+schema:
+  audio_enabled: bool
