@@ -93,6 +93,10 @@ restarts and updates.
 > force a fresh login, stop the add-on and delete the panel's file in
 > `/data/tokens`.
 
+
+## Browser audio
+
+Enable `audio_enabled` to send Chromium audio to panels running an audio-capable firmware. Audio uses an additional WebSocket on the existing port 3000; no host sound card is required. Older firmware continues to receive the screen. his option requires an updated server base image containing the audio implementation. Microphone recording is not enabled in this release.
 ______________________________________________________________________
 
 ## How it works

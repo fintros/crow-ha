@@ -1,4 +1,9 @@
 # Changelog
+## [1.2.4] - 2026-10-23
+### Added
+- Microphone support
+- Multiple virtual browsers support (supprot multiply independent panels) 
+
 ## [1.2.3] - 2026-10-12
 ### Fixed
 - Stereo audio support
