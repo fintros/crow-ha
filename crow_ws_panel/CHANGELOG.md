@@ -1,4 +1,8 @@
 # Changelog
+## [1.2.5] - 2026-10-23
+### Added
+- Server information report added
+
 ## [1.2.4] - 2026-10-23
 ### Added
 - Microphone support
